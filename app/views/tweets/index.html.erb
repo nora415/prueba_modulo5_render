@@ -6,7 +6,7 @@
   <br>
 <%= form_with url: tweets_path, method: :get do |form|%>
  <%= form.text_field :query_text, placeholder: "buscador", value: params[:query_text]%>
- <%= form.submit "Buscar", class:"btn btn-primary"%>
+ <%= form.submit "Buscar", class:"btn btn-dark"%>
 <%end%>
 </div>
 
